@@ -1,0 +1,57 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "bb77dcb508015d78e414c30f6cd43666",
+    "packages": [
+        {
+            "name": "b3nl/sw-migrations",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/b3nl/sw-migrations.git",
+                "reference": "f48438dd0b2c64eeeb407dffb03f64a80e4c78bc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/b3nl/sw-migrations/zipball/f48438dd0b2c64eeeb407dffb03f64a80e4c78bc",
+                "reference": "f48438dd0b2c64eeeb407dffb03f64a80e4c78bc",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">= 5.4.0"
+            },
+            "require-dev": {
+                "squizlabs/php_codesniffer": "2.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "SWMigrations\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Bjoern Lange",
+                    "email": "github@b3nl.de"
+                }
+            ],
+            "description": "Uses the shopware interface to enable custom database migrations.",
+            "time": "2015-04-22 07:05:36"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

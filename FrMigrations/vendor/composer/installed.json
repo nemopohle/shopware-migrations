@@ -1,0 +1,43 @@
+[
+    {
+        "name": "b3nl/sw-migrations",
+        "version": "1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/b3nl/sw-migrations.git",
+            "reference": "f48438dd0b2c64eeeb407dffb03f64a80e4c78bc"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/b3nl/sw-migrations/zipball/f48438dd0b2c64eeeb407dffb03f64a80e4c78bc",
+            "reference": "f48438dd0b2c64eeeb407dffb03f64a80e4c78bc",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">= 5.4.0"
+        },
+        "require-dev": {
+            "squizlabs/php_codesniffer": "2.*"
+        },
+        "time": "2015-04-22 07:05:36",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "SWMigrations\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Bjoern Lange",
+                "email": "github@b3nl.de"
+            }
+        ],
+        "description": "Uses the shopware interface to enable custom database migrations."
+    }
+]
