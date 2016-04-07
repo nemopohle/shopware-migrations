@@ -1,5 +1,5 @@
 {
-    "name": "framily-plugin-sw-migrations",
+    "name": "nemopohle/shopware-migrations",
     "type": "shopware-frontend-plugin",
     "require": {
         "composer/installers": "~1.0"    
